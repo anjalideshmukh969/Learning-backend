@@ -10,7 +10,6 @@ try {
         return res.status(404).json({
             message:" token not found"
         });
-
         // to verify token
     let decode = jwt.verify(token, process.env.jwt_secret);
     if(!decode)

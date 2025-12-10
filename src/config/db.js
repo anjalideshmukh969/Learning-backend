@@ -6,10 +6,8 @@ const connnectDB = async (req,res)=>{
        if(res){
         console.log("DataBase Connected"); 
        }
-         
     } catch (error) {
         console.log("error in connectiong db",error);
-        
     }
 }
 module.exports = connnectDB;
