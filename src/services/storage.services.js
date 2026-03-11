@@ -17,6 +17,6 @@ const sendFiles = async (file, fileName) => {
 module.exports = sendFiles;
 
 // ImageKit is a cloud-based image & video CDN.It lets you:
-// Upload images from your backend or frontend
+// Upload imagess from your backend or frontend
 // Automatically compress, resize, crop, or transform them
 // Serve them super-fast using a global CDN
