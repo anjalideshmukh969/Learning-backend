@@ -19,7 +19,6 @@ app.use(express.urlencoded({extended:true})); // to parse urlencoded data to jso
 //     origin: "http://localhost:5173",
 //     credentials: true,
 // }));
-
 connectDB();
 
 app.use('/api/auth/user', authRoutes);
@@ -30,7 +29,6 @@ app.use("/api/mail", mailRoutes);
 app.use("/api/otp", otpRoutes);
 
 let port = process.env.port || 4000;
-
 app.listen(port , ()=>{
     console.log(`Server is running on port ${port}`);  
 })
